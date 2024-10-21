@@ -10,5 +10,10 @@ h2{
     text-transform: capitalize;
     display:contents ;
     visibility: collapse;
-    background-color: azure;
+    background-color: rgb(255, 240, 240);
+}
+input:checked img{
+    /* Kích vào thì mất khỏi giao diện */
+    display: none;
+
 }
